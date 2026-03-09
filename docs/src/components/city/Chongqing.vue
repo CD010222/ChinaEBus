@@ -37,7 +37,7 @@ import pkg from 'lodash';
 const { throttle } = pkg;
 
 import MyWorker from '@/workers/worker.js?worker';
-import { data as myData} from '@/loaders/city/Chongqing_Chongqing.data.js';
+import { data as myData} from '@/loaders/city/Chongqing.data.js';
 
 const worker = new MyWorker();
 
