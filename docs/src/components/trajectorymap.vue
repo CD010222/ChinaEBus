@@ -114,7 +114,7 @@ onUnmounted(() => {
 });
 
 // 时间转换函数（需根据实际情况实现）
-function time_convert_reverse(x, min=1726617600) {
+function time_convert_reverse(x, min=1726588800) {
   return new Date((x + min) * 1000);
 }
 

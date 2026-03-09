@@ -16,7 +16,7 @@
       <hr class="decorative-line">
       
       <div class="intro-text">
-        <p>The rapid electrification of bus fleets has become central to China's urban decarbonization efforts, yet cities exhibit stark differences in operational feasibility, investment needs, and environmental outcomes. This study develops a nationwide, data driven framework to evaluate bus electrification across 224 Chinese cities, revealing how heterogeneous network and city conditions fundamentally influence the cost effectiveness and sustainability of large scale bus electrification.</p>      </div>
+        <p>The rapid electrification of bus fleets has become central to China's urban decarbonization efforts, yet cities exhibit stark differences in operational feasibility, investment needs, and environmental outcomes. This study develops a nationwide, data-driven framework to evaluate bus electrification across 224 Chinese cities, revealing how heterogeneous network and city conditions fundamentally influence the cost-effectiveness and sustainability of large-scale bus electrification.</p>      </div>
     </div>
     
     <p class="hint">↓ Scroll down to continue ↓</p>

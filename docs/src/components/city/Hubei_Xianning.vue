@@ -10,7 +10,10 @@
               <div class="legend-color" style="background-color: rgb(23, 184, 190);"></div>
               <span>Bus</span>
           </div>
-
+          <div class="legend-item">
+              <div class="legend-color" style="background-color: rgb(253, 128, 93);"></div>
+              <span>Minibus</span>
+          </div>
       </div>
   </ControlPanel>
   <MapComponent
@@ -108,7 +111,7 @@ function time_convert_reverse(x, min=1737331200) {
 }
 
 function updateTimeString(currentTime) {
-  return time_convert_reverse(currentTime).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai', hour12: false });
+  return time_convert_reverse(currentTime).toUTCString() + ' UTC+8';
 }
 
 </script>
