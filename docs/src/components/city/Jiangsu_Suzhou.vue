@@ -9,12 +9,7 @@
           <div class="legend-item">
               <div class="legend-color" style="background-color: rgb(23, 184, 190);"></div>
               <span>Bus</span>
-          </div>
-          <div class="legend-item">
-              <div class="legend-color" style="background-color: rgb(253, 128, 93);"></div>
-              <span>Minibus</span>
-          </div>
-      </div>
+          </div></div>
   </ControlPanel>
   <MapComponent
       :center="center"
