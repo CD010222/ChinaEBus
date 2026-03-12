@@ -10,10 +10,9 @@ files.forEach(file => {
   const filePath = path.join(cityDir, file);
   const content = fs.readFileSync(filePath, 'utf8');
   
-  // 查找并替换time_convert_reverse函数
+  // 查找并替换updateTimeString函数
   const updatedContent = content
-    .replace(/function time_convert_reverse\(x, min=\d+\) {/g, 'function time_convert_reverse(x, min=1737331200) {')
-    .replace(/return time_convert_reverse\(currentTime\)\.toUTCString\(\);/g, 'return time_convert_reverse(currentTime).toUTCString() + \' UTC+8\';');
+    .replace(/return time_convert_reverse\(currentTime\)\.toUTCString\(\)\s*\+\s*' UTC\+8'\s*;/g, 'return time_convert_reverse(currentTime).toUTCString().replace(\' GMT\', \'\') + \' UTC+8\';');
   
   // 写入修改后的内容
   fs.writeFileSync(filePath, updatedContent, 'utf8');

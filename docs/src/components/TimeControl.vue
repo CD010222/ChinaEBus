@@ -1,11 +1,6 @@
 <template>
   <div id="control-panel">
       <div id="toolbar">
-          <div id="barchart-container" v-if="showVloume">
-              <div id="barchart">
-                  <div id="curr" :style="{ left: curr + '%' }"></div>
-              </div>
-          </div>
           <input
               id="time-slider"
               type="range"

@@ -106,7 +106,7 @@ function time_convert_reverse(x, min=1737331200) {
 }
 
 function updateTimeString(currentTime) {
-  return time_convert_reverse(currentTime).toUTCString() + ' UTC+8';
+  return time_convert_reverse(currentTime).toUTCString().replace(' GMT', '') + ' UTC+8';
 }
 
 </script>

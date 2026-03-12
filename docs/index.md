@@ -4,7 +4,7 @@ layout: page
 
 <Header />
 
-> The China’s Electric Bus Interactive Map: <a href="map/china-city.html" target="_blank" rel="noopener noreferrer">Click Here</a>
+> Explore China's Electric Bus Interactive Map: <a href="map/china-city.html" target="_blank" rel="noopener noreferrer">Click Here</a>
 
 The burden of bus electrification varies markedly across Chinese cities, with the annualized total cost ranging from 0.01% to 1.2% of city-level GDP and the annual electricity demand accounting for 0.6% to 17.83% of industrial electricity consumption.
 To analyse electrification performance across Chinese cities, we classified cities into three categories based on bus network length: large, medium and small. Differences in network scale and topology across these categories further shape infrastructure deployment and cost–benefit performance.
