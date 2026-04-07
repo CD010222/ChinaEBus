@@ -6,8 +6,8 @@ export const themeConfig = {
       target: '_blank' 
     },
     { 
-      text: 'About', 
-      link: '/about/',
+      text: 'Contact', 
+      link: '/Contact/',
       target: '_blank'  // 强制新标签页打开
     },
     { 
