@@ -7,7 +7,7 @@ export const themeConfig = {
     },
     { 
       text: 'Contact', 
-      link: '/Contact/',
+      link: '/contact/',
       target: '_blank'  // 强制新标签页打开
     },
     { 
