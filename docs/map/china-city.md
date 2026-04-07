@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-# ChinaEBus
+# Electric Bus Scenarios in 200+ Chinese Cities (Click a City in the Map to Visualize its Electric Bus Scenario)
 
 <ChinaCityMap />
 
