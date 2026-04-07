@@ -12,7 +12,7 @@ export const themeConfig = {
     },
     { 
       text: 'Map', 
-      link: '/map/A/',
+      link: '/map/china-city/',
       target: '_blank'  // 强制新标签页打开
     }
   ]
