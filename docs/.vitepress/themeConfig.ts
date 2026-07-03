@@ -6,13 +6,8 @@ export const themeConfig = {
       target: '_blank' 
     },
     { 
-      text: 'About', 
-      link: '/about/',
-      target: '_blank'  // 强制新标签页打开
-    },
-    { 
       text: 'Map', 
-      link: '/map/A/',
+      link: '/map/china-city/',
       target: '_blank'  // 强制新标签页打开
     }
   ]
