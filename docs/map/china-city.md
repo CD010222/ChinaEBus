@@ -26,7 +26,7 @@ layout: page
 .city-map-title small {
     font-size: 0.6em;
     display: block;
-    margin-top: 1px;
+    margin-top: 0px;
     margin-bottom: 1px;
     color: var(--vp-c-text-2);
     line-height: 1.2;
