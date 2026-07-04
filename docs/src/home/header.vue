@@ -2,7 +2,7 @@
   <div class="intro-section">
     <div class="content-wrapper">
       <h1>
-        <span class="highlight">How do bus network structure shapes system costs and emissions of fleet electrification? Evidence from 224 Chinese cities</span>
+        <span class="highlight">How does bus network structure shape system costs and emissions of fleet electrification? Evidence from 224 Chinese cities</span>
         <br>
         <p class="watermark">This work is part of the <a class="link" href="https://globalevdata.github.io/">Global EV Data Initiative</a>.</p>
       </h1>
